@@ -5,9 +5,9 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgotpassComponent } from './forgotpass/forgotpass.component';
 
 const routes: Routes = [
-  
+  // {path: '', redirectTo:'/accounts/login', pathMatch:'full'},
   {path:'login',component:LoginComponent},
-  {path:'signup',component:SignupComponent},
+  {path:'emailsignup',component:SignupComponent},
   {path:'forgot-password',component:ForgotpassComponent},
 ];
 
